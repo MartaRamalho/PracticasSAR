@@ -1,0 +1,2 @@
+Lines: 37454
+Number words (including stopwords): 381223

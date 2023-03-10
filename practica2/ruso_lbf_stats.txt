@@ -1,0 +1,755 @@
+Lines: 51
+Number words (including stopwords): 272
+Vocabulary size: 49
+Number of symbols: 1303
+Number of different symbols: 50
+Words (alphabetical order):
+	aha: 16
+	bendram: 8
+	blokiem: 4
+	brambachandra: 8
+	brlrl: 16
+	chandra: 8
+	chandram: 8
+	co: 4
+	do: 4
+	dopiero: 4
+	gdy: 4
+	ha: 8
+	haha: 8
+	hahaha: 16
+	jacyś: 4
+	jej: 8
+	krokiem: 4
+	kurwa: 4
+	leszcze: 4
+	mać: 4
+	mi: 4
+	miało: 4
+	mieszkania: 4
+	mieszkaniu: 4
+	nosz: 4
+	obili: 4
+	ona: 4
+	pod: 4
+	ryja: 4
+	się: 12
+	stać: 4
+	stało: 8
+	swego: 4
+	szła: 4
+	to: 4
+	w: 4
+	wolnym: 4
+	грез: 1
+	дать: 8
+	для: 1
+	из: 2
+	любви: 1
+	мира: 1
+	песню: 8
+	пришёл: 8
+	слез: 1
+	хрустальных: 1
+	эту: 8
+	я: 8
+Words (by frequency):
+	aha: 16
+	brlrl: 16
+	hahaha: 16
+	się: 12
+	bendram: 8
+	brambachandra: 8
+	chandra: 8
+	chandram: 8
+	ha: 8
+	haha: 8
+	jej: 8
+	stało: 8
+	дать: 8
+	песню: 8
+	пришёл: 8
+	эту: 8
+	я: 8
+	blokiem: 4
+	co: 4
+	do: 4
+	dopiero: 4
+	gdy: 4
+	jacyś: 4
+	krokiem: 4
+	kurwa: 4
+	leszcze: 4
+	mać: 4
+	mi: 4
+	miało: 4
+	mieszkania: 4
+	mieszkaniu: 4
+	nosz: 4
+	obili: 4
+	ona: 4
+	pod: 4
+	ryja: 4
+	stać: 4
+	swego: 4
+	szła: 4
+	to: 4
+	w: 4
+	wolnym: 4
+	из: 2
+	грез: 1
+	для: 1
+	любви: 1
+	мира: 1
+	слез: 1
+	хрустальных: 1
+Symbols (alphabetical order):
+	a: 228
+	b: 48
+	c: 36
+	d: 48
+	e: 48
+	g: 8
+	h: 112
+	i: 56
+	j: 24
+	k: 24
+	l: 48
+	m: 56
+	n: 52
+	o: 64
+	p: 8
+	r: 88
+	s: 48
+	t: 16
+	u: 8
+	w: 16
+	y: 16
+	z: 24
+	ć: 8
+	ę: 12
+	ł: 16
+	ś: 4
+	а: 10
+	б: 1
+	в: 1
+	г: 1
+	д: 9
+	е: 10
+	з: 4
+	и: 12
+	л: 12
+	м: 1
+	н: 9
+	п: 16
+	р: 11
+	с: 10
+	т: 17
+	у: 9
+	х: 2
+	ш: 8
+	ы: 1
+	ь: 9
+	э: 8
+	ю: 9
+	я: 9
+	ё: 8
+Symbols (by frequency):
+	a: 228
+	h: 112
+	r: 88
+	o: 64
+	i: 56
+	m: 56
+	n: 52
+	b: 48
+	d: 48
+	e: 48
+	l: 48
+	s: 48
+	c: 36
+	j: 24
+	k: 24
+	z: 24
+	т: 17
+	t: 16
+	w: 16
+	y: 16
+	ł: 16
+	п: 16
+	ę: 12
+	и: 12
+	л: 12
+	р: 11
+	а: 10
+	е: 10
+	с: 10
+	д: 9
+	н: 9
+	у: 9
+	ь: 9
+	ю: 9
+	я: 9
+	g: 8
+	p: 8
+	u: 8
+	ć: 8
+	ш: 8
+	э: 8
+	ё: 8
+	ś: 4
+	з: 4
+	х: 2
+	б: 1
+	в: 1
+	г: 1
+	м: 1
+	ы: 1
+Word pairs (alphabetical order):
+	$ aha: 8
+	$ brlrl: 8
+	$ chandram: 8
+	$ dopiero: 4
+	$ gdy: 4
+	$ jacyś: 4
+	$ stało: 4
+	$ для: 1
+	$ из: 2
+	$ я: 8
+	aha aha: 8
+	aha hahaha: 8
+	bendram $: 8
+	blokiem $: 4
+	brambachandra chandra: 8
+	brlrl brlrl: 8
+	brlrl haha: 8
+	chandra bendram: 8
+	chandram brambachandra: 8
+	co miało: 4
+	do mieszkania: 4
+	dopiero w: 4
+	gdy ona: 4
+	ha $: 8
+	haha $: 8
+	hahaha ha: 8
+	hahaha hahaha: 8
+	jacyś leszcze: 4
+	jej blokiem: 4
+	jej mieszkaniu: 4
+	krokiem $: 4
+	kurwa mać: 4
+	leszcze obili: 4
+	mać $: 4
+	mi ryja: 4
+	miało się: 4
+	mieszkania swego: 4
+	mieszkaniu nosz: 4
+	nosz kurwa: 4
+	obili mi: 4
+	ona do: 4
+	pod jej: 4
+	ryja pod: 4
+	się stać: 4
+	się stało: 4
+	się to: 4
+	stać $: 4
+	stało się: 8
+	swego szła: 4
+	szła wolnym: 4
+	to co: 4
+	w jej: 4
+	wolnym krokiem: 4
+	грез $: 1
+	дать эту: 8
+	для любви: 1
+	из мира: 1
+	из хрустальных: 1
+	любви $: 1
+	мира грез: 1
+	песню $: 8
+	пришёл дать: 8
+	слез $: 1
+	хрустальных слез: 1
+	эту песню: 8
+	я пришёл: 8
+Word pairs (by frequency):
+	$ aha: 8
+	$ brlrl: 8
+	$ chandram: 8
+	$ я: 8
+	aha aha: 8
+	aha hahaha: 8
+	bendram $: 8
+	brambachandra chandra: 8
+	brlrl brlrl: 8
+	brlrl haha: 8
+	chandra bendram: 8
+	chandram brambachandra: 8
+	ha $: 8
+	haha $: 8
+	hahaha ha: 8
+	hahaha hahaha: 8
+	stało się: 8
+	дать эту: 8
+	песню $: 8
+	пришёл дать: 8
+	эту песню: 8
+	я пришёл: 8
+	$ dopiero: 4
+	$ gdy: 4
+	$ jacyś: 4
+	$ stało: 4
+	blokiem $: 4
+	co miało: 4
+	do mieszkania: 4
+	dopiero w: 4
+	gdy ona: 4
+	jacyś leszcze: 4
+	jej blokiem: 4
+	jej mieszkaniu: 4
+	krokiem $: 4
+	kurwa mać: 4
+	leszcze obili: 4
+	mać $: 4
+	mi ryja: 4
+	miało się: 4
+	mieszkania swego: 4
+	mieszkaniu nosz: 4
+	nosz kurwa: 4
+	obili mi: 4
+	ona do: 4
+	pod jej: 4
+	ryja pod: 4
+	się stać: 4
+	się stało: 4
+	się to: 4
+	stać $: 4
+	swego szła: 4
+	szła wolnym: 4
+	to co: 4
+	w jej: 4
+	wolnym krokiem: 4
+	$ из: 2
+	$ для: 1
+	грез $: 1
+	для любви: 1
+	из мира: 1
+	из хрустальных: 1
+	любви $: 1
+	мира грез: 1
+	слез $: 1
+	хрустальных слез: 1
+Symbol pairs (alphabetical order):
+	ac: 12
+	ah: 56
+	am: 24
+	an: 32
+	ać: 8
+	ał: 12
+	ba: 8
+	be: 8
+	bi: 4
+	bl: 4
+	br: 24
+	ch: 24
+	co: 4
+	cy: 4
+	cz: 4
+	do: 8
+	dr: 32
+	dy: 4
+	eg: 4
+	ej: 8
+	em: 8
+	en: 8
+	er: 4
+	es: 12
+	gd: 4
+	go: 4
+	ha: 112
+	ia: 8
+	ie: 20
+	il: 4
+	iu: 4
+	ię: 12
+	ja: 8
+	je: 8
+	ka: 8
+	ki: 8
+	kr: 4
+	ku: 4
+	le: 4
+	li: 4
+	ln: 4
+	lo: 4
+	lr: 16
+	ma: 4
+	mb: 8
+	mi: 16
+	na: 4
+	nd: 32
+	ni: 8
+	no: 4
+	ny: 4
+	ob: 4
+	od: 4
+	ok: 8
+	ol: 4
+	on: 4
+	op: 4
+	os: 4
+	pi: 4
+	po: 4
+	ra: 40
+	rl: 32
+	ro: 8
+	rw: 4
+	ry: 4
+	si: 12
+	st: 12
+	sw: 4
+	sz: 20
+	ta: 12
+	to: 4
+	ur: 4
+	wa: 4
+	we: 4
+	wo: 4
+	yj: 4
+	ym: 4
+	yś: 4
+	zc: 4
+	ze: 4
+	zk: 8
+	zł: 4
+	ła: 4
+	ło: 12
+	ал: 1
+	ат: 8
+	бв: 1
+	ви: 1
+	гр: 1
+	да: 8
+	дл: 1
+	ез: 2
+	ес: 8
+	из: 2
+	ир: 1
+	иш: 8
+	ле: 1
+	ль: 1
+	лю: 1
+	ля: 1
+	ми: 1
+	ны: 1
+	ню: 8
+	пе: 8
+	пр: 8
+	ра: 1
+	ре: 1
+	ри: 8
+	ру: 1
+	сл: 1
+	сн: 8
+	ст: 1
+	та: 1
+	ту: 8
+	ть: 8
+	ус: 1
+	хр: 1
+	шё: 8
+	ых: 1
+	ьн: 1
+	эт: 8
+	юб: 1
+	ёл: 8
+Symbol pairs (by frequency):
+	ha: 112
+	ah: 56
+	ra: 40
+	an: 32
+	dr: 32
+	nd: 32
+	rl: 32
+	am: 24
+	br: 24
+	ch: 24
+	ie: 20
+	sz: 20
+	lr: 16
+	mi: 16
+	ac: 12
+	ał: 12
+	es: 12
+	ię: 12
+	si: 12
+	st: 12
+	ta: 12
+	ło: 12
+	ać: 8
+	ba: 8
+	be: 8
+	do: 8
+	ej: 8
+	em: 8
+	en: 8
+	ia: 8
+	ja: 8
+	je: 8
+	ka: 8
+	ki: 8
+	mb: 8
+	ni: 8
+	ok: 8
+	ro: 8
+	zk: 8
+	ат: 8
+	да: 8
+	ес: 8
+	иш: 8
+	ню: 8
+	пе: 8
+	пр: 8
+	ри: 8
+	сн: 8
+	ту: 8
+	ть: 8
+	шё: 8
+	эт: 8
+	ёл: 8
+	bi: 4
+	bl: 4
+	co: 4
+	cy: 4
+	cz: 4
+	dy: 4
+	eg: 4
+	er: 4
+	gd: 4
+	go: 4
+	il: 4
+	iu: 4
+	kr: 4
+	ku: 4
+	le: 4
+	li: 4
+	ln: 4
+	lo: 4
+	ma: 4
+	na: 4
+	no: 4
+	ny: 4
+	ob: 4
+	od: 4
+	ol: 4
+	on: 4
+	op: 4
+	os: 4
+	pi: 4
+	po: 4
+	rw: 4
+	ry: 4
+	sw: 4
+	to: 4
+	ur: 4
+	wa: 4
+	we: 4
+	wo: 4
+	yj: 4
+	ym: 4
+	yś: 4
+	zc: 4
+	ze: 4
+	zł: 4
+	ła: 4
+	ез: 2
+	из: 2
+	ал: 1
+	бв: 1
+	ви: 1
+	гр: 1
+	дл: 1
+	ир: 1
+	ле: 1
+	ль: 1
+	лю: 1
+	ля: 1
+	ми: 1
+	ны: 1
+	ра: 1
+	ре: 1
+	ру: 1
+	сл: 1
+	ст: 1
+	та: 1
+	ус: 1
+	хр: 1
+	ых: 1
+	ьн: 1
+	юб: 1
+Prefixes (by frequency):
+	br-: 24
+	ha-: 24
+	hah-: 24
+	ah-: 16
+	brl-: 16
+	brlr-: 16
+	ch-: 16
+	cha-: 16
+	chan-: 16
+	haha-: 16
+	mi-: 12
+	si-: 12
+	st-: 12
+	sta-: 12
+	be-: 8
+	ben-: 8
+	bend-: 8
+	bra-: 8
+	bram-: 8
+	je-: 8
+	mie-: 8
+	mies-: 8
+	stał-: 8
+	да-: 8
+	дат-: 8
+	пе-: 8
+	пес-: 8
+	песн-: 8
+	пр-: 8
+	при-: 8
+	приш-: 8
+	эт-: 8
+	bl-: 4
+	blo-: 4
+	blok-: 4
+	do-: 4
+	dop-: 4
+	dopi-: 4
+	gd-: 4
+	ja-: 4
+	jac-: 4
+	jacy-: 4
+	kr-: 4
+	kro-: 4
+	krok-: 4
+	ku-: 4
+	kur-: 4
+	kurw-: 4
+	le-: 4
+	les-: 4
+	lesz-: 4
+	ma-: 4
+	mia-: 4
+	miał-: 4
+	no-: 4
+	nos-: 4
+	ob-: 4
+	obi-: 4
+	obil-: 4
+	on-: 4
+	po-: 4
+	ry-: 4
+	ryj-: 4
+	sw-: 4
+	swe-: 4
+	sweg-: 4
+	sz-: 4
+	szł-: 4
+	wo-: 4
+	wol-: 4
+	woln-: 4
+	гр-: 1
+	гре-: 1
+	дл-: 1
+	лю-: 1
+	люб-: 1
+	любв-: 1
+	ми-: 1
+	мир-: 1
+	сл-: 1
+	сле-: 1
+	хр-: 1
+	хру-: 1
+	хрус-: 1
+Suffixes (by frequency):
+	-ha: 40
+	-aha: 24
+	-am: 16
+	-dra: 16
+	-dram: 16
+	-haha: 16
+	-lrl: 16
+	-ndra: 16
+	-ra: 16
+	-ram: 16
+	-rl: 16
+	-rlrl: 16
+	-ało: 12
+	-ię: 12
+	-ło: 12
+	-ać: 8
+	-ej: 8
+	-em: 8
+	-iem: 8
+	-kiem: 8
+	-tało: 8
+	-ать: 8
+	-есню: 8
+	-ишёл: 8
+	-ню: 8
+	-сню: 8
+	-ту: 8
+	-ть: 8
+	-шёл: 8
+	-ёл: 8
+	-acyś: 4
+	-ania: 4
+	-aniu: 4
+	-bili: 4
+	-cyś: 4
+	-cze: 4
+	-dy: 4
+	-ego: 4
+	-ero: 4
+	-go: 4
+	-ia: 4
+	-iało: 4
+	-iero: 4
+	-ili: 4
+	-iu: 4
+	-ja: 4
+	-li: 4
+	-lnym: 4
+	-na: 4
+	-nia: 4
+	-niu: 4
+	-nym: 4
+	-od: 4
+	-osz: 4
+	-ro: 4
+	-rwa: 4
+	-sz: 4
+	-tać: 4
+	-urwa: 4
+	-wa: 4
+	-wego: 4
+	-yja: 4
+	-ym: 4
+	-yś: 4
+	-zcze: 4
+	-ze: 4
+	-zła: 4
+	-ła: 4
+	-ез: 2
+	-бви: 1
+	-ви: 1
+	-ира: 1
+	-лез: 1
+	-ля: 1
+	-ных: 1
+	-ра: 1
+	-рез: 1
+	-ых: 1
+	-ьных: 1
+	-юбви: 1
