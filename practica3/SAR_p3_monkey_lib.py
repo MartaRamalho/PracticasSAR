@@ -37,28 +37,30 @@ class Monkey():
 
     def index_sentence(self, sentence: str):
         n = self.info['n']
-        #############
-        # COMPLETAR #
-        #############
+        for i in range(2, n+1):
+            sentenceN = '$ '*(i-1) + sentence
+            words = sentenceN.split()
+            for w in range(len(words)):
+                if w+i <= len(words):
+                    ngram = tuple(words[w:w+i-1])
+                    self.info['lm'][i][ngram] = {
+                    } if ngram not in self.info['lm'][i] else self.info['lm'][i][ngram]
+                    countWord = 1 if words[w +
+                                           i-1] not in self.info['lm'][i][ngram] else self.info['lm'][i][ngram][words[w+i-1]]+1
+                    self.info['lm'][i][ngram][words[w+i-1]] = countWord
 
     def compute_lm(self, filenames: List[str], lm_name: str, n: int):
         self.info = {'name': lm_name, 'filenames': filenames, 'n': n, 'lm': {}}
         for i in range(2, n+1):
             self.info['lm'][i] = {}
 
-        line1 = ''
-        line2 = ''
         for filename in filenames:
-            for line in open(filename, encoding='utf-8'):
-                line1 = line2
-                line2 = ''
-                w, p = self.r1.split(line)
-                line1 += w
-                line2 += p
-                if (line != ''):
-                    sentence = self.r2.sub(" ", line1)
-                    self.index_sentence(sentence.lower())
-                    print(sentence)
+            sentences = self.r1.split(open(filename, encoding='utf-8').read())
+            for line in sentences:
+                s = line.split('\n\n')
+                for l in s:
+                    l = self.r2.sub(" ", l).lower()+' $'
+                    self.index_sentence(l)
         for i in range(2, n+1):
             convert_to_lm_dict(self.info['lm'][i])
 
@@ -96,9 +98,34 @@ class Monkey():
                     f"'{' '.join(prev)}'\t=>\t{wl[0]}\t=>\t{', '.join(['%s:%s' % (x[1], x[0]) for x in wl[1]])}", file=fh)
 
     def generate_sentences(self, n: Optional[int], nsentences: int = 10, prefix: Optional[str] = None):
-        #############
-        # COMPLETAR #
-        #############
+        if not n:
+            n = self.get_n()
+        if prefix:
+            prefLen = len(prefix.split())
+            prefixAux = "$ "*(n-prefLen-1)+prefix
+        else:
+            prefixAux = '$ '*(n-1)
+        for sentence in range(nsentences):
+            thisTuple = tuple(prefixAux.split())
+            last = ''
+            sentence = prefix if prefix else ''
+            word = ''
+            while '$' not in last and len(sentence.split()) != 50:
+                max = self.info['lm'][n][thisTuple][0]
+                index = random.randint(1, max)
+                sumWeight = 0
+                for weight, word in self.info['lm'][n][thisTuple][1]:
+                    sumWeight += weight
+                    if word == '$':
+                        break
+                    else:
+                        if sumWeight >= index:
+                            sentence += " "+word
+                            thisTuple = thisTuple[-(n-2):] + \
+                                (word, ) if n > 2 else (word, )
+                            break
+                last = word
+            print(sentence)
         pass
 
 
