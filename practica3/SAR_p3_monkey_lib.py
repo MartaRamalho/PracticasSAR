@@ -59,8 +59,9 @@ class Monkey():
             for line in sentences:
                 s = line.split('\n\n')
                 for l in s:
-                    l = self.r2.sub(" ", l).lower()+' $'
-                    self.index_sentence(l)
+                    if l != '':
+                        l = self.r2.sub(" ", l).lower()+' $'
+                        self.index_sentence(l)
         for i in range(2, n+1):
             convert_to_lm_dict(self.info['lm'][i])
 
