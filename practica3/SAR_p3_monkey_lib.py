@@ -48,6 +48,7 @@ class Monkey():
                     countWord = 1 if words[w +
                                            i-1] not in self.info['lm'][i][ngram] else self.info['lm'][i][ngram][words[w+i-1]]+1
                     self.info['lm'][i][ngram][words[w+i-1]] = countWord
+        print(self.info)
 
     def compute_lm(self, filenames: List[str], lm_name: str, n: int):
         self.info = {'name': lm_name, 'filenames': filenames, 'n': n, 'lm': {}}
@@ -103,13 +104,16 @@ class Monkey():
             n = self.get_n()
         if prefix:
             prefLen = len(prefix.split())
-            prefixAux = "$ "*(n-prefLen-1)+prefix
-        else:
+            if prefLen <= n-1:
+                prefixAux = "$ "*(n-prefLen-1)+prefix
+            else:
+                prefixAux = ' '.join(prefix.split()[prefLen-n+1:])
+        if not prefix or tuple(prefixAux.split()) not in self.info['lm'][n]:
             prefixAux = '$ '*(n-1)
         for sentence in range(nsentences):
             thisTuple = tuple(prefixAux.split())
             last = ''
-            sentence = prefix if prefix else ''
+            sentence = prefix
             word = ''
             while '$' not in last and len(sentence.split()) != 50:
                 max = self.info['lm'][n][thisTuple][0]
@@ -117,14 +121,13 @@ class Monkey():
                 sumWeight = 0
                 for weight, word in self.info['lm'][n][thisTuple][1]:
                     sumWeight += weight
-                    if word == '$':
-                        break
-                    else:
-                        if sumWeight >= index:
-                            sentence += " "+word
-                            thisTuple = thisTuple[-(n-2):] + \
-                                (word, ) if n > 2 else (word, )
+                    if sumWeight >= index:
+                        if word == '$':
                             break
+                        sentence += " "+word
+                        thisTuple = thisTuple[-(n-2):] + \
+                            (word, ) if n > 2 else (word, )
+                        break
                 last = word
             print(sentence)
         pass
